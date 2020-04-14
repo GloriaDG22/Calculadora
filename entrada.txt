@@ -1,15 +1,20 @@
 int main(){
-	int i;
+	int i;    //comienzan las declaraciones de variables
 	float num, suma1;
-	suma1 = 0.;
+	suma1 = 1.E10;
 	num = 0.5e+2;
-	for (i=0;i < 10; i++){
+	/* ahora hay  
+          un bucle */ 
+        for (i=0;i < 10; i++){
 		suma1 = suma1 + 1.5; 
 		num = num * suma1;
-		
+
 	}
+
 	num = num * .5
-	cout << "suma vale " << suma1 <<endl;
-	cout << "num vale " << num <<endl;
+	cout << "suma vale " << suma1 << " dolares" << endl;
+	cout << "num vale " << num << endl;
+	
+
 	return 0;
 }
