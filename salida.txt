@@ -1,0 +1,26 @@
+INT MAIN(){
+	INT ID;
+	FLOAT ID, ID;
+	ID = REAL;
+	ID = ;
+	FOR (ID=ENTERO;ID < ENTERO; ID++){
+		ID = ID + REAL; 
+		ID = ID * ID;
+		
+	}
+	ID = ID * REAL
+	COUT << CAD << ID <<ENDL;
+	COUT << CAD << ID <<ENDL;
+	ID ENTERO;
+}
+
+Caracteres= 74
+Palabras= 9
+Líneas= 15
+Enteros= 3
+Real= 3
+Palabra 'Gloria'= 0
+Notaciones científicas= 1
+Palabras reservadas= 9
+Identificadores= 18
+Espacios en blanco= 67
