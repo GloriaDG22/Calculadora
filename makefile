@@ -1,5 +1,3 @@
-#Gloria Díaz González
-
 FILE_LEX = lexico.l
 EXE_LEX = lexico
 PARAM = entrada.txt salida.txt
