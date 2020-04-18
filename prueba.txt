@@ -1,0 +1,11 @@
+A = 2*3+1
+Bb = (3+A)*2.54
+Cc = Bb < A
+_logico = (B == 3) && (Bb==10) //error, B no existe
+A = 34%2
+A_2 = 12%Bb //error semántico, Bb es de tipo real
+A = 12.2*Bb //error semántico, A es de tipo entero y recibe un valor de tipo real. A sigue valiendo 0
+A = A+1
+salir //error sintáctico
+X = Cc + 2 //error semántico, no se pueden hacer operaciones aritméticas con variables lógicas
+aa = A + A
