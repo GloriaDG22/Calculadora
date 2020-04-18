@@ -1,9 +1,6 @@
 #fichero Makefile
 
-OBJ = calculadora.o lexico.o 
-
-ejecutar : calculadora
-	./calculadora
+OBJ = calculadora.o lexico.o tablaSimbolos.o
 
 calculadora : $(OBJ)     #segunda fase de la tradicción. Generación del código ejecutable 
 	g++ -ocalculadora $(OBJ)
